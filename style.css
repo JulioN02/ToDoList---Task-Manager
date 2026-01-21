@@ -44,6 +44,33 @@ button:hover {
   background-color: #163392d8;
 }
 
+span.edit-btn {
+  background-color: #2563eb;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+span.delete-btn {
+  background-color: #ff8888;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6px;
+  margin-left: 6px;
+
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 
 /* Dark theme styles 
 body.dark-theme {
