@@ -2,12 +2,14 @@ const taskForm = document.getElementById("task-form");
 
 const taskList = document.getElementById("task-list");
 
+loadTasks()
 taskForm.addEventListener("submit",(event)=>{
     event.preventDefault();
     const taskInput = document.getElementById("task-input");
     const task = taskInput.value;
     if(task) {
         taskList.append(createTaskElement(task));
+        storeTaskInLocalStorage(task);
         taskInput.value = "";
     }
 });
