@@ -42,6 +42,7 @@ taskList.addEventListener("click", (event)=>{
 function deleteTask(taskItem){
     if(confirm("¿Do you want delete this Task?")){
         taskItem.remove();
+        updateLocalStorage();
     }
 }
 
@@ -50,5 +51,6 @@ function editTask(taskItem){
     const newTask = prompt("Edit Task", taskItem.firstChild.textContent)
     if(newTask !== null){
         taskItem.firstChild.textContent = newTask;
+        updateLocalStorage();
     }
 }
