@@ -27,11 +27,11 @@ La aplicación permite a los usuarios crear, editar, eliminar y guardar tareas, 
 
 El proyecto sigue una arquitectura modular separando responsabilidades:
 
-├── index.html          # Estructura principal
-├── style.css           # Estilos y temas
-├── app.js              # Lógica principal del DOM y eventos
-├── appStorage.js       # Manejo de LocalStorage (Lectura/Escritura)
-└── appChangeTheme.js   # Lógica para el cambio de tema (Dark Mode)
+- index.html           # Estructura principal y carga de scripts
+- style.css            # Estilos base y variables de modo oscuro
+- app.js               # Lógica del DOM, eventos y renderizado
+- appStorage.js        # Persistencia de datos (lectura/escritura en LocalStorage)
+- appChangeTheme.js    # Lógica independiente para el cambio de tema
 
 Lo que aprendí (Conceptos Clave)
 
