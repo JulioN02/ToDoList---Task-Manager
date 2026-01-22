@@ -73,7 +73,7 @@ span.delete-btn {
 }
 
 
-/* Dark theme styles 
+/* Dark theme styles */
 body.dark-theme {
   background-color: #333;
   color: #fff;
@@ -87,4 +87,3 @@ body.dark-theme {
 .dark-theme #task-list li {
   background: #444;
 }
-*/
